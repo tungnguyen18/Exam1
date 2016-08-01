@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.fragment.Blank2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/frg2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO NEXT FRAGMENT"
+        android:id="@+id/btbFgt2"
+        android:layout_gravity="center_horizontal|top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tro lai"
+        android:id="@+id/btnBack2"
+        android:layout_gravity="center" />
+
+</FrameLayout>
